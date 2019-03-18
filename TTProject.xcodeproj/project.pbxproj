@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADDE6E8301426DFD24F65912 /* libPods-TTProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EB4A6C7A35C39790395B37 /* libPods-TTProject.a */; };
 		BC218298223F636500CC1D6C /* TTProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC21828E223F636400CC1D6C /* TTProject.framework */; };
 		BC21829D223F636500CC1D6C /* TTProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21829C223F636500CC1D6C /* TTProjectTests.m */; };
 		BC21829F223F636500CC1D6C /* TTProject.h in Headers */ = {isa = PBXBuildFile; fileRef = BC218291223F636400CC1D6C /* TTProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0088AAC5483650C48713B18 /* libPods-TTProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E6E395649EB285AAB13870 /* libPods-TTProjectTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E6E395649EB285AAB13870 /* libPods-TTProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04369FD6E604656C92DADC59 /* Pods-TTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProject.debug.xcconfig"; path = "Target Support Files/Pods-TTProject/Pods-TTProject.debug.xcconfig"; sourceTree = "<group>"; };
+		32821F6741AE3C767EE2F4E8 /* Pods-TTProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProjectTests.release.xcconfig"; path = "Target Support Files/Pods-TTProjectTests/Pods-TTProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8B4E34EE94D3012B518F28E /* Pods-TTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProject.release.xcconfig"; path = "Target Support Files/Pods-TTProject/Pods-TTProject.release.xcconfig"; sourceTree = "<group>"; };
 		BC21828E223F636400CC1D6C /* TTProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC218291223F636400CC1D6C /* TTProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTProject.h; sourceTree = "<group>"; };
 		BC218292223F636400CC1D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC218297223F636500CC1D6C /* TTProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC21829C223F636500CC1D6C /* TTProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTProjectTests.m; sourceTree = "<group>"; };
 		BC21829E223F636500CC1D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EB4A6C7A35C39790395B37 /* libPods-TTProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE64B874259A83C4AC0D632C /* Pods-TTProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-TTProjectTests/Pods-TTProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDE6E8301426DFD24F65912 /* libPods-TTProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC218298223F636500CC1D6C /* TTProject.framework in Frameworks */,
+				D0088AAC5483650C48713B18 /* libPods-TTProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B7EAA291A555ABCFD9BD297 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04369FD6E604656C92DADC59 /* Pods-TTProject.debug.xcconfig */,
+				A8B4E34EE94D3012B518F28E /* Pods-TTProject.release.xcconfig */,
+				FE64B874259A83C4AC0D632C /* Pods-TTProjectTests.debug.xcconfig */,
+				32821F6741AE3C767EE2F4E8 /* Pods-TTProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		64D8E6C067DD52459AE38956 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1EB4A6C7A35C39790395B37 /* libPods-TTProject.a */,
+				00E6E395649EB285AAB13870 /* libPods-TTProjectTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC218284223F636400CC1D6C = {
 			isa = PBXGroup;
 			children = (
 				BC218290223F636400CC1D6C /* TTProject */,
 				BC21829B223F636500CC1D6C /* TTProjectTests */,
 				BC21828F223F636400CC1D6C /* Products */,
+				0B7EAA291A555ABCFD9BD297 /* Pods */,
+				64D8E6C067DD52459AE38956 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC2182A2223F636500CC1D6C /* Build configuration list for PBXNativeTarget "TTProject" */;
 			buildPhases = (
+				BDD8B4B158FB039ED5500433 /* [CP] Check Pods Manifest.lock */,
 				BC218289223F636400CC1D6C /* Headers */,
 				BC21828A223F636400CC1D6C /* Sources */,
 				BC21828B223F636400CC1D6C /* Frameworks */,
@@ -122,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC2182A5223F636500CC1D6C /* Build configuration list for PBXNativeTarget "TTProjectTests" */;
 			buildPhases = (
+				F32D1AA4650046D513D7F74B /* [CP] Check Pods Manifest.lock */,
 				BC218293223F636500CC1D6C /* Sources */,
 				BC218294223F636500CC1D6C /* Frameworks */,
 				BC218295223F636500CC1D6C /* Resources */,
@@ -187,6 +222,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDD8B4B158FB039ED5500433 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32D1AA4650046D513D7F74B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC21828A223F636400CC1D6C /* Sources */ = {
@@ -335,6 +417,7 @@
 		};
 		BC2182A3223F636500CC1D6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04369FD6E604656C92DADC59 /* Pods-TTProject.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					"$(ARCHS_STANDARD)",
@@ -367,6 +450,7 @@
 		};
 		BC2182A4223F636500CC1D6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B4E34EE94D3012B518F28E /* Pods-TTProject.release.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					"$(ARCHS_STANDARD)",
@@ -399,6 +483,7 @@
 		};
 		BC2182A6223F636500CC1D6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE64B874259A83C4AC0D632C /* Pods-TTProjectTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G85CRCZT55;
@@ -416,6 +501,7 @@
 		};
 		BC2182A7223F636500CC1D6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32821F6741AE3C767EE2F4E8 /* Pods-TTProjectTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G85CRCZT55;

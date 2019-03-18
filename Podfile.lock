@@ -1,0 +1,16 @@
+PODS:
+  - TTProject (0.0.1)
+
+DEPENDENCIES:
+  - TTProject (from `./`)
+
+EXTERNAL SOURCES:
+  TTProject:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  TTProject: 05ad327f137af880ffabc3b3943cb3e3adf24bf1
+
+PODFILE CHECKSUM: 3388aac9b1ddb100a9a828848729dbc14f4853e4
+
+COCOAPODS: 1.6.0.beta.1
