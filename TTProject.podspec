@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "TTProject/Classes/*"
   #spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "TTProject/Classes/*.h"
 
 
 
