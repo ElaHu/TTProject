@@ -21,10 +21,17 @@ Pod::Spec.new do |spec|
 
 
 
+if $lib = ENV['t']
+    
   spec.source_files  = "TTProject/Classes/*"
   #spec.exclude_files = "Classes/Exclude"
+  #spec.public_header_files = "TTProject/Classes/*.h"
+  
+  else
 
-  spec.public_header_files = "TTProject/Classes/*.h"
+  spec.source_files  = "TTProject/Classes/COO/*"
+
+  end
 
 
 

@@ -1,0 +1,13 @@
+
+!#/bash/shell
+
+if[-z "$t"] then
+
+pod update --no-repo-update
+
+else
+
+t=1 pod update --no-repo-update
+
+end
+

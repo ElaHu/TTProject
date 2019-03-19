@@ -12,8 +12,7 @@
     "git": "http://aaa/TTProject.git",
     "tag": "0.0.1"
   },
-  "source_files": "TTProject/Classes/*",
-  "public_header_files": "TTProject/Classes/*.h",
+  "source_files": "TTProject/Classes/COO/*",
   "platforms": {
     "osx": null,
     "ios": null,
