@@ -24,20 +24,21 @@ Pod::Spec.new do |spec|
 $lib = ENV['t']
 
 if $lib
-    
-    spec.source_files  = "TTProject/Classes/COO/*"
+    spec.source_files  = "TTProject/Classes/*"
+
+    #dddddddd
   #spec.exclude_files = "Classes/Exclude"
   #spec.public_header_files = "TTProject/Classes/*.h"
   
-  else
+else
 
 
-  spec.source_files  = "TTProject/Classes/*"
 
+  spec.source_files  = "TTProject/Classes/COO/*"
 
 
   
-  end
+end
 
 
 
