@@ -25,17 +25,15 @@ $lib = ENV['t']
 
 if $lib
     
-    
-    spec.source_files  = "TTProject/Classes/*"
-
-
+    spec.source_files  = "TTProject/Classes/COO/*"
   #spec.exclude_files = "Classes/Exclude"
   #spec.public_header_files = "TTProject/Classes/*.h"
   
   else
 
 
-  spec.source_files  = "TTProject/Classes/COO/*"
+  spec.source_files  = "TTProject/Classes/*"
+
 
 
   
