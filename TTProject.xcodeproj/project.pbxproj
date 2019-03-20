@@ -28,9 +28,12 @@
 
 /* Begin PBXFileReference section */
 		00E6E395649EB285AAB13870 /* libPods-TTProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01004EFA775CAD4FF85D694E /* Pods-TTProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTProjectTests/Pods-TTProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		04369FD6E604656C92DADC59 /* Pods-TTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProject.debug.xcconfig"; path = "Target Support Files/Pods-TTProject/Pods-TTProject.debug.xcconfig"; sourceTree = "<group>"; };
 		32821F6741AE3C767EE2F4E8 /* Pods-TTProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProjectTests.release.xcconfig"; path = "Target Support Files/Pods-TTProjectTests/Pods-TTProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		466AACB07BD79847CB094C3F /* Pods-TTProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTProjectTests/Pods-TTProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		A8B4E34EE94D3012B518F28E /* Pods-TTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProject.release.xcconfig"; path = "Target Support Files/Pods-TTProject/Pods-TTProject.release.xcconfig"; sourceTree = "<group>"; };
+		B229E04BE4E6175928A3D102 /* Pods-TTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTProject/Pods-TTProject.release.xcconfig"; sourceTree = "<group>"; };
 		BC21828E223F636400CC1D6C /* TTProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC218291223F636400CC1D6C /* TTProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTProject.h; sourceTree = "<group>"; };
 		BC218292223F636400CC1D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +42,7 @@
 		BC21829E223F636500CC1D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2182C4223F9D3F00CC1D6C /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		BC2182C5223F9D3F00CC1D6C /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		D9938ED8F0228F35B7469DBB /* Pods-TTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTProject/Pods-TTProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E1EB4A6C7A35C39790395B37 /* libPods-TTProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE64B874259A83C4AC0D632C /* Pods-TTProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-TTProjectTests/Pods-TTProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +75,10 @@
 				A8B4E34EE94D3012B518F28E /* Pods-TTProject.release.xcconfig */,
 				FE64B874259A83C4AC0D632C /* Pods-TTProjectTests.debug.xcconfig */,
 				32821F6741AE3C767EE2F4E8 /* Pods-TTProjectTests.release.xcconfig */,
+				D9938ED8F0228F35B7469DBB /* Pods-TTProject.debug.xcconfig */,
+				B229E04BE4E6175928A3D102 /* Pods-TTProject.release.xcconfig */,
+				01004EFA775CAD4FF85D694E /* Pods-TTProjectTests.debug.xcconfig */,
+				466AACB07BD79847CB094C3F /* Pods-TTProjectTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -143,7 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC2182A2223F636500CC1D6C /* Build configuration list for PBXNativeTarget "TTProject" */;
 			buildPhases = (
-				BDD8B4B158FB039ED5500433 /* [CP] Check Pods Manifest.lock */,
+				2F75BB294EEA77C1EACE69E2 /* [CP] Check Pods Manifest.lock */,
 				BC218289223F636400CC1D6C /* Headers */,
 				BC21828A223F636400CC1D6C /* Sources */,
 				BC21828B223F636400CC1D6C /* Frameworks */,
@@ -230,7 +238,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BDD8B4B158FB039ED5500433 /* [CP] Check Pods Manifest.lock */ = {
+		2F75BB294EEA77C1EACE69E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
