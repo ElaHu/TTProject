@@ -23,23 +23,32 @@ Pod::Spec.new do |spec|
 
 $lib = ENV['t']
 
-#if $lib == 1
-
+if $lib == "1"
+    puts "this is choice 1"
+    puts $lib
     #dddddddd
-#    spec.source_files  = "TTProject/Classes/COO/*"
+    spec.source_files  = "TTProject/Classes/COO/*.h"
 
   #spec.exclude_files = "Classes/Exclude"
-  spec.public_header_files = "TTProject/Classes/*.h"
+#  spec.public_header_files = "TTProject/Classes/*.h"
+
+elsif $lib == "2"
+  puts "this is choice 2"
   
-#else
+  spec.source_files  = "TTProject/Classes/COO/*.m"
+elsif $lib == "3"
+  puts "this is choice 3"
+  spec.source_files  = "TTProject/Classes/COO/*"
+else
 #
-#spec.source_files  = "TTProject/Classes/*"
+  puts "this is default choice"
+ spec.source_files  = "TTProject/Classes/*"
 #
 #
 #
 #
 #
-#end
+end
 
 
 
