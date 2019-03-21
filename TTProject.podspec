@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
 
 $lib = ENV['t']
 
-if $lib
+if $lib == 1
 
     #dddddddd
     spec.source_files  = "TTProject/Classes/COO/*"
