@@ -15,6 +15,6 @@
     NSString * plistPath = [[NSBundle mainBundle] pathForResource:@"Version" ofType:@"plist"];
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:plistPath];
 
-
+    NSLog(@"------version%@",dict[@"subversion"]);
 }
 @end
