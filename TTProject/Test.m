@@ -10,4 +10,11 @@
 
 @implementation Test
 
+- (void)showVersion{
+    
+    NSString * plistPath = [[NSBundle mainBundle] pathForResource:@"Version" ofType:@"plist"];
+    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:plistPath];
+
+
+}
 @end
