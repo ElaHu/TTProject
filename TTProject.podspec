@@ -9,11 +9,11 @@ Pod::Spec.new do |spec|
 
   spec.description  = "组件化"
 
-#  spec.homepage     = "http://aaa/TTProject"
+  spec.homepage     = "https://github.com/ElaHu/TTProject.git"
 
   spec.license      = "MIT"
   spec.author             = { "huweihong" => "huweihong@miao.cn" }
-      spec.source       = { :git => "http://aaa/TTProject.git", :tag => "#{spec.version}" }
+      spec.source       = { :git => "https://github.com/ElaHu/TTProject.git", :tag => "#{spec.version}" }
 
       
 
