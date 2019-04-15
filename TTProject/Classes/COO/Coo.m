@@ -9,4 +9,7 @@
 
 @implementation Coo
 
++ (void)load{
+    NSLog(@"走了Load");
+}
 @end

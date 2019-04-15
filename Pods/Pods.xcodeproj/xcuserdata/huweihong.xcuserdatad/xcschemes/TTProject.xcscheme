@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3128AF0D39B3219F83F8A7858BA5D0D0"
-               BuildableName = "TTProject"
+               BuildableName = "libTTProject.a"
                BlueprintName = "TTProject"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

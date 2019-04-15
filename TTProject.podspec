@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
 
   spec.description  = "组件化"
 
-  spec.homepage     = "http://aaa/TTProject"
- 
+#  spec.homepage     = "http://aaa/TTProject"
+
   spec.license      = "MIT"
   spec.author             = { "huweihong" => "huweihong@miao.cn" }
       spec.source       = { :git => "http://aaa/TTProject.git", :tag => "#{spec.version}" }
@@ -23,27 +23,30 @@ $v = ENV['v']
 
 puts $v
 
-if $lib == "1"
-    puts "this is choice 1"
-    puts $lib
-    spec.source_files  = "TTProject/Classes/COO/*.h"
-
-elsif $lib == "2"
-  puts "this is choice 2"
-  
-  spec.source_files  = "TTProject/Classes/COO/*.m"
-elsif $lib == "3"
-  puts "this is choice 3"
+#if $lib == "1"
+#    puts "this is choice 1"
+#    puts $lib
+#    spec.source_files  = "TTProject/Classes/COO/*.h"
+#
+#elsif $lib == "2"
+#  puts "this is choice 2"
+#
+#  spec.source_files  = "TTProject/Classes/COO/*.m"
+#elsif $lib == "3"
+#  puts "this is choice 3"
   spec.source_files  = "TTProject/Classes/COO/*"
-else
-  puts "this is default choice"
- spec.source_files  = "TTProject/Classes/*"
+  
+  spec.public_header_files  = "TTProject/Classes/COO/*.h"
+#else
+#  puts "this is default choice"
+# spec.source_files  = "TTProject/Classes/*"
 
- 
+
+
+
+
+
+
+
 end
-
-
-
-
-
-end
+              

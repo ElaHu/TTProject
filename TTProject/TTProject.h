@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
 //! Project version number for TTProject.
 FOUNDATION_EXPORT double TTProjectVersionNumber;
 
