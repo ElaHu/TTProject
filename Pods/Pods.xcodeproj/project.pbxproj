@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E5CBD4168C63F6AB462E6F4C765F56B /* Pods-TTProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DD0CE5D86B9355E9DF492CACAFFBBF /* Pods-TTProject-dummy.m */; };
-		3437363B1E29B2924478F015AB04586B /* Pods-TTProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CB890F0FC0FC444C5C348FE01EAE0 /* Pods-TTProjectTests-dummy.m */; };
-		63088FCD93302697A761E014DDF77B45 /* Coo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54A4A2DA27E90C86AC1E70916E023C /* Coo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8D433DF8CB45CD91DFA289DEE65B7584 /* Coo.h in Headers */ = {isa = PBXBuildFile; fileRef = 217D3B031C5A6C8DB2017A3FE44685C2 /* Coo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F885E11C659A5539D00DEC060375C177 /* TTProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FEB319B62951A904B7BC3E1E9FB890 /* TTProject-dummy.m */; };
+		2E5CBD4168C63F6AB462E6F4C765F56B /* Pods-TTProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5794DEAAACB9109CBF0F5CC5AB366B6E /* Pods-TTProject-dummy.m */; };
+		3437363B1E29B2924478F015AB04586B /* Pods-TTProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF53FF6D22FA3C2592ADC001234ADD85 /* Pods-TTProjectTests-dummy.m */; };
+		45C06B28C58D1538B8DC58D0393D36A0 /* Coo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54A4A2DA27E90C86AC1E70916E023C /* Coo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A07C2045F7C868980B6BC22AE3A7DF23 /* TTProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BCB242318EE82A8B12C7D1F74530A2 /* TTProject-dummy.m */; };
+		E71ECA2D645EA5485D9C7C8E3444A1C0 /* Coo.h in Headers */ = {isa = PBXBuildFile; fileRef = 217D3B031C5A6C8DB2017A3FE44685C2 /* Coo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -19,14 +19,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 272F41D791A76FAE9C112A6928C73F52;
+			remoteGlobalIDString = 8C45D20634330D14E85F596B814E6471;
 			remoteInfo = "Pods-TTProject";
 		};
 		E325ACF2C68D781CDAE396DC6CD8CD38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3128AF0D39B3219F83F8A7858BA5D0D0;
+			remoteGlobalIDString = 91EA7EFE7619903BB6689944F4B285C6;
 			remoteInfo = TTProject;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,30 +34,37 @@
 /* Begin PBXFileReference section */
 		03A36DE400246F082F0A109F1CE4368C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		093AEBB20659BED8954BEB3DA548C521 /* TTProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TTProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0FF9FD5871E6642563390F7BD696FDD4 /* Pods-TTProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTProject-acknowledgements.plist"; sourceTree = "<group>"; };
 		217D3B031C5A6C8DB2017A3FE44685C2 /* Coo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Coo.h; path = TTProject/Classes/COO/Coo.h; sourceTree = "<group>"; };
 		258D5E5751E3FB1C4849832F6FAC3D8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		29EB822EAE330100DD5E9F2CC5A62450 /* Pods-TTProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D2CB890F0FC0FC444C5C348FE01EAE0 /* Pods-TTProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTProjectTests-dummy.m"; sourceTree = "<group>"; };
-		52DCEFE43F501F9DFD7758E4E5588CDA /* Pods-TTProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTProjectTests.release.xcconfig"; sourceTree = "<group>"; };
-		5D24CFA8C247521F0B725005835507D3 /* Pods-TTProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		892627621EC7EE3F36E6AF81C5568EDE /* libPods-TTProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTProject.a"; path = "libPods-TTProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EE6A2FAC0821FE25DD04556F5D12DB0 /* libTTProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTTProject.a; path = libTTProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		96CBE39FDFBB41B4248C94331BE1E06B /* Pods-TTProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		981F7C7E4A8DDC44B00F2B879F1C4704 /* TTProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTProject-prefix.pch"; sourceTree = "<group>"; };
+		454BD35A756AFF3B7E305C3BA0D63704 /* Pods-TTProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5794DEAAACB9109CBF0F5CC5AB366B6E /* Pods-TTProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTProject-dummy.m"; sourceTree = "<group>"; };
+		5D1025D8609A2B64FB8351449C1D35CA /* Pods-TTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTProject.debug.xcconfig"; sourceTree = "<group>"; };
+		5EEDB2790F2EE3F43E79AAA37A69558F /* libPods-TTProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTProject.a"; path = "libPods-TTProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60688F0C7FA6E040900BDE14BB977F7F /* TTProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTProject-prefix.pch"; sourceTree = "<group>"; };
+		7840CBF4AC72693914FD513B48DFC842 /* Pods-TTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTProject.release.xcconfig"; sourceTree = "<group>"; };
+		9203D13D5D7708BED04D014221E3BB42 /* Pods-TTProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CDE742379C4DD5D31395D8541D64E5C /* Pods-TTProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6FEB319B62951A904B7BC3E1E9FB890 /* TTProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTProject-dummy.m"; sourceTree = "<group>"; };
-		A7DD0CE5D86B9355E9DF492CACAFFBBF /* Pods-TTProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTProject-dummy.m"; sourceTree = "<group>"; };
 		AA54A4A2DA27E90C86AC1E70916E023C /* Coo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Coo.m; path = TTProject/Classes/COO/Coo.m; sourceTree = "<group>"; };
-		C9FA565CA9A80455904439A5125CD5D3 /* Pods-TTProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTProject-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D44443AF1426B9457A1F00827EECB150 /* TTProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTProject.xcconfig; sourceTree = "<group>"; };
-		E0D21802D37AC19596F9E9530EC04F5A /* Pods-TTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTProject.release.xcconfig"; sourceTree = "<group>"; };
-		F46A67A69F3127D30662A94FC0F89491 /* libPods-TTProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTProjectTests.a"; path = "libPods-TTProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F762C80064A0A479AEA25F429C1BE190 /* Pods-TTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTProject.debug.xcconfig"; sourceTree = "<group>"; };
+		AE5AC5C0FC0B8C36D72204389FDA881B /* TTProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTProject.xcconfig; sourceTree = "<group>"; };
+		AF53FF6D22FA3C2592ADC001234ADD85 /* Pods-TTProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTProjectTests-dummy.m"; sourceTree = "<group>"; };
+		B6BCB242318EE82A8B12C7D1F74530A2 /* TTProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTProject-dummy.m"; sourceTree = "<group>"; };
+		CDB5BF87BEEFC4B55006B78E4170997C /* libPods-TTProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTProjectTests.a"; path = "libPods-TTProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20B984B7B3735973B5DDEF2314F2B39 /* Pods-TTProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		D77E2CFF4033F0234D0DD3B577584714 /* libTTProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTTProject.a; path = libTTProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3BBAE1F7BEB17B5C6E4722368950C8 /* Pods-TTProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB544A046FAE996EA90FEE58C2278089 /* Pods-TTProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2D49286D2FF05E5EFDDDABE407745125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7917B1C48CABE8C838BAE70A5FA4F44F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,40 +78,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAFF0361B72C2BEAE473F017BEB9AABC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B6F05BE8AB5E269E77913FE3F0C2E77 /* Pods-TTProject */ = {
+		0B1866C81F5064977ABFB4D920B59429 /* Pods-TTProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				C9FA565CA9A80455904439A5125CD5D3 /* Pods-TTProject-acknowledgements.markdown */,
-				0FF9FD5871E6642563390F7BD696FDD4 /* Pods-TTProject-acknowledgements.plist */,
-				A7DD0CE5D86B9355E9DF492CACAFFBBF /* Pods-TTProject-dummy.m */,
-				F762C80064A0A479AEA25F429C1BE190 /* Pods-TTProject.debug.xcconfig */,
-				E0D21802D37AC19596F9E9530EC04F5A /* Pods-TTProject.release.xcconfig */,
-			);
-			name = "Pods-TTProject";
-			path = "Target Support Files/Pods-TTProject";
-			sourceTree = "<group>";
-		};
-		3A9130BA7F461A6C7C8613EF113438AB /* Pods-TTProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				29EB822EAE330100DD5E9F2CC5A62450 /* Pods-TTProjectTests-acknowledgements.markdown */,
-				96CBE39FDFBB41B4248C94331BE1E06B /* Pods-TTProjectTests-acknowledgements.plist */,
-				3D2CB890F0FC0FC444C5C348FE01EAE0 /* Pods-TTProjectTests-dummy.m */,
-				5D24CFA8C247521F0B725005835507D3 /* Pods-TTProjectTests.debug.xcconfig */,
-				52DCEFE43F501F9DFD7758E4E5588CDA /* Pods-TTProjectTests.release.xcconfig */,
+				9203D13D5D7708BED04D014221E3BB42 /* Pods-TTProjectTests-acknowledgements.markdown */,
+				454BD35A756AFF3B7E305C3BA0D63704 /* Pods-TTProjectTests-acknowledgements.plist */,
+				AF53FF6D22FA3C2592ADC001234ADD85 /* Pods-TTProjectTests-dummy.m */,
+				EB544A046FAE996EA90FEE58C2278089 /* Pods-TTProjectTests.debug.xcconfig */,
+				9CDE742379C4DD5D31395D8541D64E5C /* Pods-TTProjectTests.release.xcconfig */,
 			);
 			name = "Pods-TTProjectTests";
 			path = "Target Support Files/Pods-TTProjectTests";
+			sourceTree = "<group>";
+		};
+		2E1DEAA6587B285B1047A8161C8BD87E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EEDB2790F2EE3F43E79AAA37A69558F /* libPods-TTProject.a */,
+				CDB5BF87BEEFC4B55006B78E4170997C /* libPods-TTProjectTests.a */,
+				D77E2CFF4033F0234D0DD3B577584714 /* libTTProject.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		425616ECC254B3F920D5082E8D9B4659 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE5AC5C0FC0B8C36D72204389FDA881B /* TTProject.xcconfig */,
+				B6BCB242318EE82A8B12C7D1F74530A2 /* TTProject-dummy.m */,
+				60688F0C7FA6E040900BDE14BB977F7F /* TTProject-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/TTProject";
 			sourceTree = "<group>";
 		};
 		42EDD80958AC49A2B4983FFB7DF37855 /* Development Pods */ = {
@@ -115,34 +123,26 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5238BE5E6840E3515C35E83BC212FBEE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				892627621EC7EE3F36E6AF81C5568EDE /* libPods-TTProject.a */,
-				F46A67A69F3127D30662A94FC0F89491 /* libPods-TTProjectTests.a */,
-				8EE6A2FAC0821FE25DD04556F5D12DB0 /* libTTProject.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5A25F67CABD21783137DF78708EB34B7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B6F05BE8AB5E269E77913FE3F0C2E77 /* Pods-TTProject */,
-				3A9130BA7F461A6C7C8613EF113438AB /* Pods-TTProjectTests */,
+				998E369D961EFE3757CCC115A4FEA3B9 /* Pods-TTProject */,
+				0B1866C81F5064977ABFB4D920B59429 /* Pods-TTProjectTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8B0681D8339DBCB10122934D9B9E1108 /* Support Files */ = {
+		998E369D961EFE3757CCC115A4FEA3B9 /* Pods-TTProject */ = {
 			isa = PBXGroup;
 			children = (
-				D44443AF1426B9457A1F00827EECB150 /* TTProject.xcconfig */,
-				A6FEB319B62951A904B7BC3E1E9FB890 /* TTProject-dummy.m */,
-				981F7C7E4A8DDC44B00F2B879F1C4704 /* TTProject-prefix.pch */,
+				DD3BBAE1F7BEB17B5C6E4722368950C8 /* Pods-TTProject-acknowledgements.markdown */,
+				D20B984B7B3735973B5DDEF2314F2B39 /* Pods-TTProject-acknowledgements.plist */,
+				5794DEAAACB9109CBF0F5CC5AB366B6E /* Pods-TTProject-dummy.m */,
+				5D1025D8609A2B64FB8351449C1D35CA /* Pods-TTProject.debug.xcconfig */,
+				7840CBF4AC72693914FD513B48DFC842 /* Pods-TTProject.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/TTProject";
+			name = "Pods-TTProject";
+			path = "Target Support Files/Pods-TTProject";
 			sourceTree = "<group>";
 		};
 		BC58094CA30D02C28ADE77D3BC4A255D /* TTProject */ = {
@@ -151,7 +151,7 @@
 				217D3B031C5A6C8DB2017A3FE44685C2 /* Coo.h */,
 				AA54A4A2DA27E90C86AC1E70916E023C /* Coo.m */,
 				E5A4B5B1403106E6317AF965D76B90A4 /* Pod */,
-				8B0681D8339DBCB10122934D9B9E1108 /* Support Files */,
+				425616ECC254B3F920D5082E8D9B4659 /* Support Files */,
 			);
 			name = TTProject;
 			path = ..;
@@ -163,7 +163,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				42EDD80958AC49A2B4983FFB7DF37855 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				5238BE5E6840E3515C35E83BC212FBEE /* Products */,
+				2E1DEAA6587B285B1047A8161C8BD87E /* Products */,
 				5A25F67CABD21783137DF78708EB34B7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -188,11 +188,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26E9C4FCCF29CE3CD7C9128873391437 /* Headers */ = {
+		10490C1D64F55AEB3C341812E2C04821 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D433DF8CB45CD91DFA289DEE65B7584 /* Coo.h in Headers */,
+				E71ECA2D645EA5485D9C7C8E3444A1C0 /* Coo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,41 +213,7 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		272F41D791A76FAE9C112A6928C73F52 /* Pods-TTProject */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1D7094B6963AE9A02F4182D35F7583DA /* Build configuration list for PBXNativeTarget "Pods-TTProject" */;
-			buildPhases = (
-				C6EC7C2E17B2346BF6D3B48C408F5555 /* Headers */,
-				692B396D4B0977E5B689FD9DD249A20C /* Sources */,
-				80C5B7E3BE868FC9FB01B21F3DF64C5E /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TTProject";
-			productName = "Pods-TTProject";
-			productReference = 892627621EC7EE3F36E6AF81C5568EDE /* libPods-TTProject.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		3128AF0D39B3219F83F8A7858BA5D0D0 /* TTProject */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 775FDDC90D58B6CBFFE6676EBE5D99FB /* Build configuration list for PBXNativeTarget "TTProject" */;
-			buildPhases = (
-				26E9C4FCCF29CE3CD7C9128873391437 /* Headers */,
-				1025D1B5AB808A1FE20E782E45660084 /* Sources */,
-				EAFF0361B72C2BEAE473F017BEB9AABC /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TTProject;
-			productName = TTProject;
-			productReference = 8EE6A2FAC0821FE25DD04556F5D12DB0 /* libTTProject.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		88E21DCC87CF3263B9384873F333FDE7 /* Pods-TTProjectTests */ = {
+		0E04E101612084EB2180EDACE0500FC3 /* Pods-TTProjectTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 051B691085903F5FC02CC3F9280AB106 /* Build configuration list for PBXNativeTarget "Pods-TTProjectTests" */;
 			buildPhases = (
@@ -263,7 +229,41 @@
 			);
 			name = "Pods-TTProjectTests";
 			productName = "Pods-TTProjectTests";
-			productReference = F46A67A69F3127D30662A94FC0F89491 /* libPods-TTProjectTests.a */;
+			productReference = CDB5BF87BEEFC4B55006B78E4170997C /* libPods-TTProjectTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8C45D20634330D14E85F596B814E6471 /* Pods-TTProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7094B6963AE9A02F4182D35F7583DA /* Build configuration list for PBXNativeTarget "Pods-TTProject" */;
+			buildPhases = (
+				C6EC7C2E17B2346BF6D3B48C408F5555 /* Headers */,
+				692B396D4B0977E5B689FD9DD249A20C /* Sources */,
+				80C5B7E3BE868FC9FB01B21F3DF64C5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TTProject";
+			productName = "Pods-TTProject";
+			productReference = 5EEDB2790F2EE3F43E79AAA37A69558F /* libPods-TTProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		91EA7EFE7619903BB6689944F4B285C6 /* TTProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90A4D863C1EF4CA0C2385D9E4119749 /* Build configuration list for PBXNativeTarget "TTProject" */;
+			buildPhases = (
+				10490C1D64F55AEB3C341812E2C04821 /* Headers */,
+				C8BAC9A13A7411BD59BACCA6BD20A0F2 /* Sources */,
+				7917B1C48CABE8C838BAE70A5FA4F44F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTProject;
+			productName = TTProject;
+			productReference = D77E2CFF4033F0234D0DD3B577584714 /* libTTProject.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -276,39 +276,39 @@
 				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5238BE5E6840E3515C35E83BC212FBEE /* Products */;
+			productRefGroup = 2E1DEAA6587B285B1047A8161C8BD87E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				272F41D791A76FAE9C112A6928C73F52 /* Pods-TTProject */,
-				88E21DCC87CF3263B9384873F333FDE7 /* Pods-TTProjectTests */,
-				3128AF0D39B3219F83F8A7858BA5D0D0 /* TTProject */,
+				8C45D20634330D14E85F596B814E6471 /* Pods-TTProject */,
+				0E04E101612084EB2180EDACE0500FC3 /* Pods-TTProjectTests */,
+				91EA7EFE7619903BB6689944F4B285C6 /* TTProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1025D1B5AB808A1FE20E782E45660084 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63088FCD93302697A761E014DDF77B45 /* Coo.m in Sources */,
-				F885E11C659A5539D00DEC060375C177 /* TTProject-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		692B396D4B0977E5B689FD9DD249A20C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2E5CBD4168C63F6AB462E6F4C765F56B /* Pods-TTProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BAC9A13A7411BD59BACCA6BD20A0F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C06B28C58D1538B8DC58D0393D36A0 /* Coo.m in Sources */,
+				A07C2045F7C868980B6BC22AE3A7DF23 /* TTProject-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,13 +326,13 @@
 		84419AEFB74549F1DA3D53DFD13EF8A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TTProject";
-			target = 272F41D791A76FAE9C112A6928C73F52 /* Pods-TTProject */;
+			target = 8C45D20634330D14E85F596B814E6471 /* Pods-TTProject */;
 			targetProxy = 46A2BC1D6202BFA08E8F84D7BD5E413C /* PBXContainerItemProxy */;
 		};
 		87E633EBB54D929AB0D3C78AE38C2D1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TTProject;
-			target = 3128AF0D39B3219F83F8A7858BA5D0D0 /* TTProject */;
+			target = 91EA7EFE7619903BB6689944F4B285C6 /* TTProject */;
 			targetProxy = E325ACF2C68D781CDAE396DC6CD8CD38 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -404,7 +404,7 @@
 		};
 		1E81EBFF7E2C1C93BB37A7CBC5C60981 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0D21802D37AC19596F9E9530EC04F5A /* Pods-TTProject.release.xcconfig */;
+			baseConfigurationReference = 7840CBF4AC72693914FD513B48DFC842 /* Pods-TTProject.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = (
@@ -430,7 +430,7 @@
 		};
 		750D20754955B43AC0769E48959EC9AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52DCEFE43F501F9DFD7758E4E5588CDA /* Pods-TTProjectTests.release.xcconfig */;
+			baseConfigurationReference = 9CDE742379C4DD5D31395D8541D64E5C /* Pods-TTProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -452,7 +452,7 @@
 		};
 		9407C2A78DBDEC5F99E4D61B271A32F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F762C80064A0A479AEA25F429C1BE190 /* Pods-TTProject.debug.xcconfig */;
+			baseConfigurationReference = 5D1025D8609A2B64FB8351449C1D35CA /* Pods-TTProject.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = (
@@ -535,54 +535,9 @@
 			};
 			name = Release;
 		};
-		E49630D49338A9DF8DD974F136943D93 /* Debug */ = {
+		B413D2C0FA1E009B0D728AFF6C3710A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D44443AF1426B9457A1F00827EECB150 /* TTProject.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TTProject/TTProject-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TTProject;
-				PRODUCT_NAME = TTProject;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E685F74ECB37BE66F582BD2626571F69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D24CFA8C247521F0B725005835507D3 /* Pods-TTProjectTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EA027575322D69EFD383E96024A77877 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D44443AF1426B9457A1F00827EECB150 /* TTProject.xcconfig */;
+			baseConfigurationReference = AE5AC5C0FC0B8C36D72204389FDA881B /* TTProject.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -604,6 +559,51 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		E685F74ECB37BE66F582BD2626571F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB544A046FAE996EA90FEE58C2278089 /* Pods-TTProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9413513AFE8364FC2A326E8DBCD46A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5AC5C0FC0B8C36D72204389FDA881B /* TTProject.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TTProject/TTProject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TTProject;
+				PRODUCT_NAME = TTProject;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -635,11 +635,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		775FDDC90D58B6CBFFE6676EBE5D99FB /* Build configuration list for PBXNativeTarget "TTProject" */ = {
+		D90A4D863C1EF4CA0C2385D9E4119749 /* Build configuration list for PBXNativeTarget "TTProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E49630D49338A9DF8DD974F136943D93 /* Debug */,
-				EA027575322D69EFD383E96024A77877 /* Release */,
+				F9413513AFE8364FC2A326E8DBCD46A1 /* Debug */,
+				B413D2C0FA1E009B0D728AFF6C3710A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,5 +9,7 @@
 #import "aaa.h"
 
 @implementation aaa
-
++ (void)load{
+    NSLog(@"aaa走了Load");
+}
 @end

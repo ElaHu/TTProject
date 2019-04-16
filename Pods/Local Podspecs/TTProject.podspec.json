@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "summary": "A short description of TTProject.",
   "description": "组件化",
-  "homepage": "http://aaa/TTProject",
+  "homepage": "https://github.com/ElaHu/TTProject",
   "license": "MIT",
   "authors": {
     "huweihong": "huweihong@miao.cn"
   },
   "source": {
-    "git": "http://aaa/TTProject.git",
+    "git": "https://github.com/ElaHu/TTProject.git",
     "tag": "0.0.1"
   },
   "source_files": "TTProject/Classes/COO/*",

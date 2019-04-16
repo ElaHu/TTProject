@@ -7,9 +7,15 @@
 //
 
 #import "LKLdevice1.h"
-
+#import "LKLdevice2.h"
 @implementation LKLdevice1
+
 - (void)showMessage1{
     NSLog(@"LKL设备1");
+    Class clazz2 = NSClassFromString(@"LKLdevice2");
+    //    Coo * object = [[Coo alloc] init];
+    
+    NSLog(@"---找到类LKLdevice2了22%@",clazz2);
+    
 }
 @end

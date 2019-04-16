@@ -7,7 +7,6 @@
 //
 
 #import "Test.h"
-
 #import <TTProject/Coo.h>
 @implementation Test
 
@@ -28,6 +27,7 @@
     NSLog(@"---找到类了111%@",clazz1);
     
     Class clazz2 = NSClassFromString(@"Coo");
+//    Coo * object = [[Coo alloc] init];
     
     NSLog(@"---找到类了22%@",clazz2);
 
