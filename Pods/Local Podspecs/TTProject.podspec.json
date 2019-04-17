@@ -1,8 +1,8 @@
 {
   "name": "TTProject",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "summary": "A short description of TTProject.",
-  "description": "组件化",
+  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ElaHu/TTProject",
   "license": "MIT",
   "authors": {
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/ElaHu/TTProject.git",
-    "tag": "0.0.1"
+    "tag": "1.0.0"
   },
   "source_files": "TTProject/Classes/COO/*",
   "public_header_files": "TTProject/Classes/COO/*.h",

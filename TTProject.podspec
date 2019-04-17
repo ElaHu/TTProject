@@ -38,8 +38,6 @@ Pod::Spec.new do |spec|
 #elsif $lib == "3"
 #  puts "this is choice 3"
   spec.source_files  = "TTProject/Classes/COO/*"
-
-  spec.public_header_files  = "TTProject/Classes/COO/*.h"
 #else
 #  puts "this is default choice"
 # spec.source_files  = "TTProject/Classes/*"
