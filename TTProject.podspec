@@ -7,7 +7,9 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.0"
   spec.summary      = "A short description of TTProject."
 
-  spec.description  = "组件化"
+  spec.description  = <<-DESC
+  TODO: Add long description of the pod here.
+  DESC
 
   spec.homepage     = "https://github.com/ElaHu/TTProject"
 
