@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
 #$v = ENV['v']
 
 
-puts $v
+#puts $v
 
 #if $lib == "1"
 #    puts "this is choice 1"
