@@ -43,7 +43,7 @@ else
  spec.source_files  = "TTProject/Classes/*"
  spec.public_header_files  = "TTProject/Classes/*.h"
 
-
+end
 
 
 
