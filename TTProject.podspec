@@ -5,10 +5,10 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TTProject"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of TTProject."
+  spec.summary      = "my project"
 
   spec.description  = <<-DESC
-  TODO: Add long description of the pod here.
+ try the project use pod.
   DESC
 
   spec.homepage     = "https://github.com/ElaHu/TTProject"
