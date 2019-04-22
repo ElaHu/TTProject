@@ -2,6 +2,9 @@
 
 Pod::Spec.new do |spec|
 
+  $versionLib = ENT['tags']
+  
+  puts tags
 
   spec.name         = "TTProject"
   spec.version      = "1.0.1"
