@@ -2,13 +2,13 @@
 
 Pod::Spec.new do |spec|
 
-#  $versionLib = ENV['t']
+ $versionLib = ENV['t']
 
   puts $versionLib
 
   spec.name         = "TTProject"
   
-  spec.version      = "1.2.4"
+  spec.version      = $versionLib
   
   spec.summary      = "my project"
 
@@ -42,7 +42,7 @@ Pod::Spec.new do |spec|
 #  spec.source_files  = "TTProject/Classes/COO/*.m"
 #elsif $lib == "3"
 #  puts "this is choice 3"
-#  spec.source_files  = "TTProject/Classes/COO/*"
+  spec.source_files  = "TTProject/Classes/COO/*"
 #else
 #  puts "this is default choice"
 # spec.source_files  = "TTProject/Classes/*"
