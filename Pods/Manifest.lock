@@ -1,5 +1,5 @@
 PODS:
-  - TTProject (0.0.2)
+  - TTProject (0.0.1)
 
 DEPENDENCIES:
   - TTProject (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  TTProject: 1a12158e4cdf0e6edaba677de67c8fc75f50445a
+  TTProject: 91948f7e4a9ca4b6e444a1c8ad8e6acc447232e9
 
 PODFILE CHECKSUM: 010f78f2d6f8758af5c1e59b44b43ba7046c393b
 
