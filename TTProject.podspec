@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |spec|
 
-#  $versionLib = ENV['t']
+ $versionLib = ENV['t']
 
   puts $versionLib
 
