@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |spec|
 
-  $versionLib = ENT['tags']
+  $versionLib = ENV['tags']
   
   puts tags
 
