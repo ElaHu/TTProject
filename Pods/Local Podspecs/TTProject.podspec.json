@@ -1,6 +1,6 @@
 {
   "name": "TTProject",
-  "version": "2",
+  "version": "3",
   "summary": "my project",
   "description": "try the project use pod.",
   "homepage": "https://github.com/ElaHu/TTProject",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/ElaHu/TTProject.git",
-    "tag": "2"
+    "tag": "3"
   },
   "source_files": "TTProject/Classes/COO/*",
   "platforms": {
