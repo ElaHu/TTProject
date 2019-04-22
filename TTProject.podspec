@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TTProject"
   
-  spec.version      = versionLib
+  spec.version      = $versionLib
   
   spec.summary      = "my project"
 
