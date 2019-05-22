@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		ADDE6E8301426DFD24F65912 /* libPods-TTProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EB4A6C7A35C39790395B37 /* libPods-TTProject.a */; };
+		BC06D8B6226EAEE100DC8D62 /* aaa.h in Headers */ = {isa = PBXBuildFile; fileRef = BC06D8B4226EAEE100DC8D62 /* aaa.h */; };
+		BC06D8B7226EAEE100DC8D62 /* aaa.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06D8B5226EAEE100DC8D62 /* aaa.m */; };
 		BC218298223F636500CC1D6C /* TTProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC21828E223F636400CC1D6C /* TTProject.framework */; };
 		BC21829D223F636500CC1D6C /* TTProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21829C223F636500CC1D6C /* TTProjectTests.m */; };
 		BC21829F223F636500CC1D6C /* TTProject.h in Headers */ = {isa = PBXBuildFile; fileRef = BC218291223F636400CC1D6C /* TTProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,6 +35,8 @@
 		466AACB07BD79847CB094C3F /* Pods-TTProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTProjectTests/Pods-TTProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		A8B4E34EE94D3012B518F28E /* Pods-TTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProject.release.xcconfig"; path = "Target Support Files/Pods-TTProject/Pods-TTProject.release.xcconfig"; sourceTree = "<group>"; };
 		B229E04BE4E6175928A3D102 /* Pods-TTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTProject/Pods-TTProject.release.xcconfig"; sourceTree = "<group>"; };
+		BC06D8B4226EAEE100DC8D62 /* aaa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaa.h; sourceTree = "<group>"; };
+		BC06D8B5226EAEE100DC8D62 /* aaa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaa.m; sourceTree = "<group>"; };
 		BC21828E223F636400CC1D6C /* TTProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC218291223F636400CC1D6C /* TTProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTProject.h; sourceTree = "<group>"; };
 		BC218292223F636400CC1D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 				B229E04BE4E6175928A3D102 /* Pods-TTProject.release.xcconfig */,
 				01004EFA775CAD4FF85D694E /* Pods-TTProjectTests.debug.xcconfig */,
 				466AACB07BD79847CB094C3F /* Pods-TTProjectTests.release.xcconfig */,
+				BC06D8B4226EAEE100DC8D62 /* aaa.h */,
+				BC06D8B5226EAEE100DC8D62 /* aaa.m */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC06D8B6226EAEE100DC8D62 /* aaa.h in Headers */,
 				BC21829F223F636500CC1D6C /* TTProject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC06D8B7226EAEE100DC8D62 /* aaa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

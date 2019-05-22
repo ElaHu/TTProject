@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TTProject"
   
-  spec.version      = "1.0.0"
+  spec.version      = "1.2.6"
   
   spec.summary      = "my project"
 
@@ -22,7 +22,9 @@ Pod::Spec.new do |spec|
   spec.author             = { "huweihong" => "huweihong@miao.cn" }
       spec.source       = { :git => "https://github.com/ElaHu/TTProject.git", :tag => "#{spec.version}" }
 
-      
+  spec.source_files  = "TTProject/Classes/COO/*.h"
+  spec.vendored_frameworks = 'TTProject/TTProject.framework'
+
 
 #$lib = ENV['t']
 #
@@ -42,7 +44,6 @@ Pod::Spec.new do |spec|
 #  spec.source_files  = "TTProject/Classes/COO/*.m"
 #elsif $lib == "3"
 #  puts "this is choice 3"
-  spec.source_files  = "TTProject/Classes/COO/*"
 #else
 #  puts "this is default choice"
 # spec.source_files  = "TTProject/Classes/*"
