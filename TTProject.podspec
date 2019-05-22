@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TTProject"
   
-  spec.version      = "1.2.6"
+  spec.version      = "1.2.7"
   
   spec.summary      = "my project"
 
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "huweihong" => "huweihong@miao.cn" }
       spec.source       = { :git => "https://github.com/ElaHu/TTProject.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "TTProject/Classes/COO/*.h"
+  spec.source_files  = "TTProject/Classes/AOO/*.*"
   spec.vendored_frameworks = 'TTProject/TTProject.framework'
 
 
